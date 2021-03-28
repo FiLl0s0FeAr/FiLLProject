@@ -6,7 +6,7 @@ import API.DTO.TestsPOST.RegAndLogin.UserRequestRegAndLogin;
 import API.DTO.TestsPOST.RegAndLogin.UserResponseRegAndLogin;
 
 import io.restassured.http.ContentType;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 
