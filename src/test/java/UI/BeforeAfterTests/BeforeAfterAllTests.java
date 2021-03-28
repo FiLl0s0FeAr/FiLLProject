@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.*;
 
-public class PreconditionBeforeAfterAllTests {
+public class BeforeAfterAllTests {
 
     public String baseURL = "http://automationpractice.com/index.php";
     public WebDriver driver;

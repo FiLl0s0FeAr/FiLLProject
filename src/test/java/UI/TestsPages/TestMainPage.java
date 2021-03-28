@@ -1,13 +1,13 @@
 package UI.TestsPages;
 
 import UI.PageObjects.MainPageObject;
-import UI.BeforeAfterTests.PreconditionBeforeAfterAllTests;
+import UI.BeforeAfterTests.BeforeAfterAllTests;
 import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TestMainPage extends PreconditionBeforeAfterAllTests {
+public class TestMainPage extends BeforeAfterAllTests {
 
     MainPageObject mainPageObject;
 

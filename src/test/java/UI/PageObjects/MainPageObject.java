@@ -1,13 +1,12 @@
 package UI.PageObjects;
 
-import UI.BeforeAfterTests.PreconditionBeforeAfterAllTests;
+import UI.BeforeAfterTests.BeforeAfterAllTests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
-public class MainPageObject extends PreconditionBeforeAfterAllTests {
+public class MainPageObject extends BeforeAfterAllTests {
 
 
     @FindBy(xpath="//title")
