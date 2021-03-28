@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class MainPageObject extends BeforeAfterAllTests {
 
 
-    @FindBy(xpath="//title")
+    @FindBy(xpath="/html/body/div/div[2]/div/div[2]/div/ul/li[1]/a")
     WebElement title;
 
     public MainPageObject(WebDriver driver) {

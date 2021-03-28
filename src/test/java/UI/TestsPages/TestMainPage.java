@@ -20,7 +20,7 @@ public class TestMainPage extends BeforeAfterAllTests {
     @Description("Get title")
     public void testTitle(){
         String actualResult = mainPageObject.getTitleOfMainPage();
-        String expectedResult = "My Store";
+        String expectedResult = "Popular";
         Assert.assertEquals(actualResult, expectedResult);
     }
 }
