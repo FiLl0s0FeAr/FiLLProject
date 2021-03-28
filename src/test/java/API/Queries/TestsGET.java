@@ -1,6 +1,6 @@
 package API.Queries;
 
-import API.DTO.SignleUser;
+import API.DTO.TestsGET.SignleUser;
 import jdk.jfr.Description;
 import org.testng.Assert;
 import org.testng.annotations.Test;

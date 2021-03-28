@@ -1,4 +1,4 @@
-package API.DTO;
+package API.DTO.TestsGET;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
