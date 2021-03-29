@@ -21,11 +21,10 @@ public class BeforeAfterAllTests {
 
         driver = new ChromeDriver(options);
         driver.get(baseURL);
-        wait = new WebDriverWait(driver, 10);
     }
 
     @AfterSuite
     public void afterSuite(){
-        driver.quit();
+        //driver.quit();
     }
 }
