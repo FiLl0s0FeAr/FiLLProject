@@ -3,14 +3,16 @@ package UI.BeforeAfterTests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
 public class BeforeAfterAllTests {
 
     public String baseURL = "http://automationpractice.com/index.php";
     public WebDriver driver;
+    public WebDriverWait wait;
 
-    @BeforeMethod(description = "Configure driver and base url before tests")
+    @BeforeSuite(description = "Configure driver and base url before tests")
     public void beforeSuit(){
         System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver/chromedriver.exe");
 
@@ -19,6 +21,7 @@ public class BeforeAfterAllTests {
 
         driver = new ChromeDriver(options);
         driver.get(baseURL);
+        wait = new WebDriverWait(driver, 10);
     }
 
     @AfterSuite
