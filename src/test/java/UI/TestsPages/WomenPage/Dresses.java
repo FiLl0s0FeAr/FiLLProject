@@ -12,7 +12,7 @@ public class Dresses extends BeforeAfterAllTests {
     BuyPageObject buyPageObject;
 
     @BeforeMethod
-    public void setBuyBuyDressURL(){
+    public void setBuyDressURL(){
         String baseDressURL = "http://automationpractice.com/index.php?id_product=3&controller=product";
         driver.get(baseDressURL);
     }

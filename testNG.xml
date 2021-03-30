@@ -13,11 +13,6 @@
 
     <test name="UI">
         <classes>
-            <class name="UI.TestsPages.MainPage.Footer">
-                <methods>
-                    <include name="testFooterCategoryWomenLink" />
-                </methods>
-            </class>
             <class name="UI.TestsPages.WomenPage.Dresses">
                 <methods>
                     <include name="fullBuyOneDressWithoutAnyConditionPaymentBank" />
