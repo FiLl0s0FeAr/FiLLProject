@@ -27,6 +27,12 @@
                     <exclude name="testSearchWithInvalidData" />
                 </methods>
             </class>
+            <class name="UI.TestsPages.WomenPage.Dresses">
+                <methods>
+                    <include name="fullBuyOneDressWithoutAnyConditionPaymentBank"></include>
+                    <exclude name="fullBuyOneDressWithoutAnyConditionPaymentBYourself"></exclude>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
