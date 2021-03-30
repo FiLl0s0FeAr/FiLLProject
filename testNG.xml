@@ -1,11 +1,21 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name = "Simple test">
-    <test name="Register">
+<suite name = "Tests" parallel="tests" thread-count="2">
+    <test name="API">
         <classes>
-            <class name="UI.TestsPages.RegisterPage.Register">
+            <class name="API.Queries.TestsGET" />
+            <class name="API.Queries.TestsPOST" />
+            <class name="API.Queries.TestsPUT" />
+            <class name="API.Queries.TestsPATCH" />
+            <class name="API.Queries.TestsDELETE" />
+        </classes>
+    </test>
+
+    <test name="UI">
+        <classes>
+            <class name="UI.TestsPages.MainPage.Footer">
                 <methods>
-                    <include name="testFullValidRegistration"/>
+                    <include name="testFooterCategoryWomenLink" />
                 </methods>
             </class>
         </classes>
