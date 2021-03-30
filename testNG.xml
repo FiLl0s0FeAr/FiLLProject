@@ -1,22 +1,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
-<suite name = "Tests">
-    <test name="API">
+<suite name = "Tests2">
+    <test name="UI2">
         <classes>
-            <class name="API.Queries.TestsGET" />
-            <class name="API.Queries.TestsPOST" />
-            <class name="API.Queries.TestsPUT" />
-            <class name="API.Queries.TestsPATCH" />
-            <class name="API.Queries.TestsDELETE" />
-        </classes>
-    </test>
-
-    <test name="UI">
-        <classes>
-            <class name="UI.TestsPages.WomenPage.Dresses">
+            <class name="UI.TestsPages.RegisterPage.Register">
                 <methods>
-                    <include name="fullBuyOneDressWithoutAnyConditionPaymentBank" />
-                    <exclude name="fullBuyOneDressWithoutAnyConditionPaymentBYourself" />
+                    <include name="testGenderMR" />
+                    <include name="testRedField" />
+                    <include name="testGreenFields" />
+                    <exclude name="testFullValidRegistration" />
                 </methods>
             </class>
         </classes>
