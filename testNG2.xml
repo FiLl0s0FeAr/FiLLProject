@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Tests2">
+    <test name="UI2">
+        <classes>
+            <class name="UI.TestsPages.RegisterPage.Register">
+                <methods>
+                    <exclude name="testGenderMR" />
+                    <exclude name="testRedField" />
+                    <exclude name="testGreenFields" />
+                    <include name="testFullValidRegistration" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
