@@ -95,7 +95,7 @@ public class RegisterPageObject extends BeforeAfterAllTests{
     }
 
     public RegisterPageObject(WebDriver driver){
-        wait = new WebDriverWait(driver, 10);
+        wait = new WebDriverWait(driver, 100);
         PageFactory.initElements(driver, this);
     }
 
