@@ -1,9 +1,18 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name = "Simple test">
+    <test name = "Main Category Test">
+        <classes>
+            <class name= "UI.TestsPages.MainPage.MainCategory"/>
+        </classes>
+    </test>
     <test name="Register">
         <classes>
-            <class name="UI.TestsPages.RegisterPage.Register"/>
+            <class name="UI.TestsPages.RegisterPage.Register">
+                <methods>
+                    <include name="testFullValidRegistration"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
