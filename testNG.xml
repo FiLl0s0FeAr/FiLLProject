@@ -18,6 +18,21 @@
                     <exclude name="testFooterCategoryWomenLink" />
                 </methods>
             </class>
+            <class name="UI.TestsPages.MainPage.Header">
+                <methods>
+                    <include name="testTitle" />
+                    <include name="testSearchWithValidData" />
+                    <exclude name="testURLAfterClickContactUs" />
+                    <exclude name="testURLAfterClickSignIn" />
+                    <exclude name="testSearchWithInvalidData" />
+                </methods>
+            </class>
+            <class name="UI.TestsPages.WomenPage.Dresses">
+                <methods>
+                    <include name="fullBuyOneDressWithoutAnyConditionPaymentBank" />
+                    <exclude name="fullBuyOneDressWithoutAnyConditionPaymentBYourself" />
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
