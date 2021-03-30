@@ -17,13 +17,14 @@ public class Register extends BeforeAfterAllTests {
         driver.get(baseRegisterURL);
 
         registerPageObject = new RegisterPageObject(driver);
+
+        String email = "ti555555@ukr.net";
+        registerPageObject.createAccount(email);
     }
 
     @Test
     @Description("Choose gender Mr and Mrs")
     public void testGenderMR(){
-        String email = "ti555555@ukr.net";
-        registerPageObject.createAccount(email);
         registerPageObject.mrClick();
         registerPageObject.mrsClick();
     }
