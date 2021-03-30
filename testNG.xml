@@ -6,12 +6,9 @@
             <class name= "UI.TestsPages.MainPage.MainCategory"/>
         </classes>
     </test>
-</suite>
-
-<suite name="Hard test">
-<test name="Register">
-    <classes>
-        <class name="UI.TestsPages.RegisterPage.Register"/>
-    </classes>
-</test>
+    <test name="Register">
+        <classes>
+            <class name="UI.TestsPages.RegisterPage.Register"/>
+        </classes>
+    </test>
 </suite>
