@@ -3,7 +3,7 @@
 <suite name = "Simple test">
     <test name = "Main Category Test">
         <classes>
-            <class name= "UI.TestsPages.MainPage.MainCategory"></class>
+            <class name= "UI.TestsPages.MainPage.MainCategory"/>
         </classes>
     </test>
 </suite>
