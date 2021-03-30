@@ -11,7 +11,7 @@
         </classes>
     </test>
 
-    <test name="UI">
+    <test name="UI3">
         <classes>
             <class name="UI.TestsPages.MainPage.Footer">
                 <methods>
