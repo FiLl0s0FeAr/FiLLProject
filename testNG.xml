@@ -15,7 +15,7 @@
         <classes>
             <class name="UI.TestsPages.MainPage.Footer">
                 <methods>
-                    <include name="testFooterCategory3333WomenLink" />
+                    <exclude name="testFooterCategoryWomenLink" />
                 </methods>
             </class>
         </classes>
