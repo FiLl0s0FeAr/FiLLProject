@@ -57,7 +57,7 @@ public class Header extends BeforeAfterAllTests {
     }
 
     @Test
-    @Description
+    @Description("Search with valid data")
     public void testSearchWithValidData(){
         String query = "Printed Dress";
 

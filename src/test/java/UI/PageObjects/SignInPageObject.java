@@ -17,7 +17,7 @@ public class SignInPageObject extends BeforeAfterAllTests {
     @FindBy(xpath = "/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/p[1]/a")
     WebElement forgotPassword;
 
-    @FindBy(xpath = "/html/body/div/div[2]/div/div[3]/div/div/div[2]/form/div/p[2]/button/span")
+    @FindBy(id = "SubmitLogin")
     WebElement signInButton;
 
     @FindBy(id = "email_create")
