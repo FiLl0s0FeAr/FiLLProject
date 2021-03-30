@@ -105,7 +105,6 @@ public class RegisterPageObject extends BeforeAfterAllTests{
     }
 
     public void mrsClick(){
-        wait.until(ExpectedConditions.visibilityOf(mrs));
         mrs.click();
     }
 
