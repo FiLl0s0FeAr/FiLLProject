@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name = "Tests">
-    <test name="UI">
+    <test name="UI3">
         <classes>
             <class name="UI.TestsPages.RegisterPage.Register">
                 <methods>

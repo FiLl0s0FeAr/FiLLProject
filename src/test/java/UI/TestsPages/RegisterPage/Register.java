@@ -63,7 +63,7 @@ public class Register extends BeforeAfterAllTests {
         registerPageObject.personalInfoClick();
         Assert.assertEquals(registerPageObject.getStyleInfoCustomerLastName(), "rgba(53, 179, 63, 1)");
 
-        Assert.assertEquals(registerPageObject.getEmail(), "ti5@ukr.net");
+        Assert.assertEquals(registerPageObject.getEmail(), "ti555555@ukr.net");
         registerPageObject.emailClick();
         registerPageObject.personalInfoClick();
         Assert.assertEquals(registerPageObject.getStyleInfoEmail(), "rgba(53, 179, 63, 1)");
