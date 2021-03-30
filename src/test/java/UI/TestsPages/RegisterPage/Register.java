@@ -22,7 +22,7 @@ public class Register extends BeforeAfterAllTests {
     @Test
     @Description("Choose gender Mr and Mrs")
     public void testGenderMR(){
-        String email = "ti5@ukr.net";
+        String email = "ti555555@ukr.net";
         registerPageObject.createAccount(email);
         registerPageObject.mrClick();
         registerPageObject.mrsClick();
@@ -31,7 +31,7 @@ public class Register extends BeforeAfterAllTests {
     @Test
     @Description("check customer first name, last name, password red field")
     public void testRedField(){
-        String email = "ti5@ukr.net";
+        String email = "ti555555@ukr.net";
         registerPageObject.createAccount(email);
 
         registerPageObject.customerFirstNameClick();
@@ -50,7 +50,7 @@ public class Register extends BeforeAfterAllTests {
     @Test
     @Description("check customer first name, last name, email, password green field")
     public void testGreenFields(){
-        String email = "ti5@ukr.net";
+        String email = "ti555555@ukr.net";
         registerPageObject.createAccount(email);
 
         registerPageObject.customerFirstNameClick();
@@ -77,7 +77,7 @@ public class Register extends BeforeAfterAllTests {
     @Test
     @Description("full registration with valid data")
     public void testFullValidRegistration(){
-        String email = "ti5@ukr.net";
+        String email = "ti555555@ukr.net";
         String name = "Serget";
         String surname = "Rublyov";
         String password = "simplePassword";

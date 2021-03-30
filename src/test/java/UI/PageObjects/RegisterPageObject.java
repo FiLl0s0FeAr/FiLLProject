@@ -19,7 +19,7 @@ public class RegisterPageObject extends BeforeAfterAllTests{
     @FindBy(name = "SubmitCreate")
     WebElement createAccountButton;
 
-    @FindBy(xpath = "//*[@id=\"id_gender1\"]")
+    @FindBy(id = "id_gender1")
     WebElement mr;
 
     @FindBy(xpath = "//input[@id=\"id_gender2\"]")
@@ -95,7 +95,7 @@ public class RegisterPageObject extends BeforeAfterAllTests{
     }
 
     public RegisterPageObject(WebDriver driver){
-        wait = new WebDriverWait(driver, 100);
+        wait = new WebDriverWait(driver, 10);
         PageFactory.initElements(driver, this);
     }
 

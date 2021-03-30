@@ -17,7 +17,7 @@ public class BeforeAfterAllTests {
         System.setProperty("webdriver.chrome.driver","src/test/resources/chromedriver/chromedriver.exe");
 
         ChromeOptions options = new ChromeOptions();
-        options.setHeadless(true);
+        options.setHeadless(false);
 
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
