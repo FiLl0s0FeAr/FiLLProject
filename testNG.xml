@@ -15,16 +15,7 @@
         <classes>
             <class name="UI.TestsPages.MainPage.Footer">
                 <methods>
-                    <exclude name="testFooterCategoryWomenLink" />
-                </methods>
-            </class>
-            <class name="UI.TestsPages.MainPage.Header">
-                <methods>
-                    <include name="testTitle" />
-                    <include name="testSearchWithValidData" />
-                    <exclude name="testURLAfterClickContactUs" />
-                    <exclude name="testURLAfterClickSignIn" />
-                    <exclude name="testSearchWithInvalidData" />
+                    <include name="testFooterCategoryWomenLink" />
                 </methods>
             </class>
             <class name="UI.TestsPages.WomenPage.Dresses">
