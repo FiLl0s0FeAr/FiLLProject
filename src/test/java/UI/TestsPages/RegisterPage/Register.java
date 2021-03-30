@@ -31,8 +31,6 @@ public class Register extends BeforeAfterAllTests {
     @Test
     @Description("check customer first name, last name, password red field")
     public void testRedField(){
-        String email = "ti555555@ukr.net";
-        registerPageObject.createAccount(email);
 
         registerPageObject.customerFirstNameClick();
         registerPageObject.personalInfoClick();
@@ -50,8 +48,6 @@ public class Register extends BeforeAfterAllTests {
     @Test
     @Description("check customer first name, last name, email, password green field")
     public void testGreenFields(){
-        String email = "ti555555@ukr.net";
-        registerPageObject.createAccount(email);
 
         registerPageObject.customerFirstNameClick();
         registerPageObject.customerFirstNameSend("Sergey");
