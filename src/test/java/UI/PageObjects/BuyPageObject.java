@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class BuyPageObject extends BeforeAfterAllTests {
+public class BuyPageObject {
 
     @FindBy(xpath = "//*[@id='add_to_cart']/button")
     WebElement addToCartP1Button;

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class SignInPageObject extends BeforeAfterAllTests {
+public class SignInPageObject{
 
     @FindBy(id = "email")
     WebElement logEmail;
