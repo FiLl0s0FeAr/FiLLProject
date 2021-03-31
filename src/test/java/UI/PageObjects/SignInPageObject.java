@@ -1,12 +1,13 @@
 package UI.PageObjects;
 
-import UI.BeforeAfterTests.BeforeAfterAllTests;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SignInPageObject{
+    public WebDriverWait wait;
 
     @FindBy(id = "email")
     WebElement logEmail;

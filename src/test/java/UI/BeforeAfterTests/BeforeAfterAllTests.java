@@ -10,7 +10,6 @@ public class BeforeAfterAllTests {
 
     public String baseURL = "http://automationpractice.com/index.php";
     public WebDriver driver;
-    public WebDriverWait wait;
 
     @BeforeSuite(description = "Configure driver and base url before tests")
     public void beforeSuit(){

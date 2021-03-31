@@ -8,7 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class RegisterPageObject extends BeforeAfterAllTests{
+public class RegisterPageObject{
+
+    public WebDriverWait wait;
 
     @FindBy(xpath = "//*[text()='Your personal information']")
     WebElement personalInfo;

@@ -6,8 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BuyPageObject {
+
+    public WebDriverWait wait;
 
     @FindBy(xpath = "//*[@id='add_to_cart']/button")
     WebElement addToCartP1Button;
