@@ -1,7 +1,7 @@
 package API.Queries;
 
-import API.DTO.SignleUser;
-import jdk.jfr.Description;
+import API.DTO.TestsGET.SignleUser;
+import io.qameta.allure.Description;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
